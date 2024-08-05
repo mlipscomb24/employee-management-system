@@ -80,7 +80,7 @@ Here is a link to the video walkthrough of the project:
 
 ## Screenshots
 
-![Application Main Menu](path/to/screenshot.png) <!-- Add your screenshot here -->
+![Screenshot of the application](2024-08-05_15-51-55.png) <!-- Add your screenshot here -->
 
 ## Future Enhancements
 
