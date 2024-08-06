@@ -11,6 +11,19 @@ const db = new DB({
   port: 5432,
 });
 
+const app = express();
+const port = process.env.PORT || 4000;
+
+// Express route for health check or basic response
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+// Start the Express server
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
+
 // Main menu options
 const menuChoices = [
   "View all departments",
