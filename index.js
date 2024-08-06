@@ -1,3 +1,4 @@
+const express = require("express"); // Import express
 const inquirer = require("inquirer");
 const DB = require("./db");
 
@@ -15,8 +16,8 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 // Express route for health check or basic response
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get("/", (req, res) => {
+  res.send("Hello World!");
 });
 
 // Start the Express server
